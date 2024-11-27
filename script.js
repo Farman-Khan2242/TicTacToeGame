@@ -6,22 +6,26 @@ gsap.from(boxes,{
     duration: 1,
     opacity: 0,
     ease: "power2.out", 
-    stagger:0.2
+    stagger:0.2,
+    delay:0.4
 })
 gsap.from('.game-title',{
     duration: 1.5,
+    delay:0.4,
     y: -80,
     opacity: 0,
     ease: "power2.out",
 })
 gsap.from('footer',{
     duration: 2.4,
+    delay:0.4,
     y: 50,
     opacity: 0,
     ease: "power2.out",
 })
 gsap.to('#reset-button',{
     duration: 1,
+    delay:0.4,
     opacity: 1,
     delay:0.5,
     ease: "power    2.out",
